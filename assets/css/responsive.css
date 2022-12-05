@@ -1,0 +1,81 @@
+@media only screen and (max-width:992px){
+    
+    
+    
+    .destinations_body {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    .destinations_body div {
+        margin-bottom: 30px;
+    }
+    
+
+    .last_page_body {
+       display: flex;
+       flex-wrap: wrap;
+    }
+
+    .last_page_body div {
+        margin-bottom: 30px;
+    }
+
+    .footer_body{
+        display: flex;
+
+    }
+
+    .footer_body nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width:768px){
+
+    
+
+    .destinations_body {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .header_body form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_body form input {
+        margin-bottom: 30px;
+    }
+
+    #last_page form {
+        display: flex;    
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #last_page form input {
+        margin-bottom: 30px;
+
+    }
+    
+
+
+    
+}
+
+@media only screen and (max-width:576px){
+
+    .container {
+        max-width: 220px;
+    }
+
+    
+
+    
+}
